@@ -1,36 +1,89 @@
 const reviews = [
     { id: '01',
-      name: 'samad',
+      name: 'A',
       desination: 'Webdeveloper app dev ',
-      detail: 'hhha'},
+      detail: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam id blanditiis pariatur a fuga harum placeat tempora numquam at corrupti? Maiores laborum deleniti iste ipsum dolor ipsa neque id eius',
+        image: src="./images/emouncle.png"},
 
       {id: '02',
-      name: 'kamil',
+      name: 'b',
       desination: 'Webdeveloper',
-      detail: 'asdsda'},
+      detail: 'asdsdaLorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam id blanditiis pariatur a fuga harum placeat tempora numquam at corrupti? Maiores laborum deleniti iste ipsum dolor ipsa neque id eius',
+       image: src="./images/emouncle.png"},
 
       {id: '03',
-      name: 'haroon',
+      name: 'c',
       desination: 'Webdevelasddsaoper',
-      detail: 'asdsa'}
+      detail: 'asdsa',
+      image: src="./images/emouncle.png"},
+
+      {id: '04',
+      name: 'd',
+      desination: 'Webdevelasddsaoper',
+      detail: 'asdsa',
+      image: src="./images/emouncle.png"},
+
+      {id: '05',
+      name: 'e',
+      desination: 'Webdevelasddsaoper',
+      detail: 'asdsa',
+      image: src="./images/emouncle.png"},
+
+
 
 ]
 
 let currIndex = 0;
 
 
-function lelei() {
-    if(i = 0; i > 3; i++){
-        i = currIndex;
-    
-
     let lili = document.getElementById('main-name');
     let workName = document.getElementById('work-name');
     let desMain = document.getElementById('dest-main');
+    let imageMain = document.getElementById('img-main');
 
     lili.textContent = reviews[currIndex].name;
     workName.textContent = reviews[currIndex].desination;
-    desMain.textContent = reviews[currIndex].detail;
+    desMain.textContent = reviews[currIndex].detail;    
+    imageMain.src = reviews[currIndex].image;
 
-    }
+
+function lelei() {
+
+    currIndex = ++currIndex;     
+         
+    let lili = document.getElementById('main-name');
+    let workName = document.getElementById('work-name');
+    let desMain = document.getElementById('dest-main');
+    
+
+    lili.textContent = reviews[currIndex].name;
+    workName.textContent = reviews[currIndex].desination;
+    desMain.textContent = reviews[currIndex].detail;   
+    imageMain.src = reviews[currIndex].image;
+    
+   
+
 }
+
+function leleix(){
+    currIndex = --currIndex;
+         
+    let lili = document.getElementById('main-name');
+    let workName = document.getElementById('work-name');
+    let desMain = document.getElementById('dest-main');
+    let imageMain = document.getElementById('img-main');
+    
+
+    lili.textContent = reviews[currIndex].name;
+    workName.textContent = reviews[currIndex].desination;
+    desMain.textContent = reviews[currIndex].detail;   
+    imageMain.src = reviews[currIndex].image;
+
+    
+}
+
+
+ 
+
+
+
