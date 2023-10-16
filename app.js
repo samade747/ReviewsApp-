@@ -9,25 +9,25 @@ const reviews = [
       name: 'b',
       desination: 'Webdeveloper',
       detail: 'asdsdaLorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam id blanditiis pariatur a fuga harum placeat tempora numquam at corrupti? Maiores laborum deleniti iste ipsum dolor ipsa neque id eius',
-       image: src="./images/emouncle.png"},
+       image: src="./Images/jeffuncle.png"},
 
       {id: '03',
       name: 'c',
       desination: 'Webdevelasddsaoper',
       detail: 'asdsa',
-      image: src="./images/emouncle.png"},
+      image: src="./Images/emli.png"},
 
       {id: '04',
       name: 'd',
       desination: 'Webdevelasddsaoper',
       detail: 'asdsa',
-      image: src="./images/emouncle.png"},
+      image: src="./Images/jeffuncle.png"},
 
       {id: '05',
       name: 'e',
       desination: 'Webdevelasddsaoper',
       detail: 'asdsa',
-      image: src="./images/emouncle.png"},
+      image: src="./Images/jeffuncle.png"},
 
 
 
