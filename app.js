@@ -21,13 +21,13 @@ const reviews = [
       name: 'd',
       desination: 'Webdevelasddsaoper',
       detail: 'asdsa',
-      image: src="./Images/jeffuncle.png"},
+      },
 
       {id: '05',
       name: 'e',
       desination: 'Webdevelasddsaoper',
       detail: 'asdsa',
-      image: src="./Images/jeffuncle.png"},
+      },
 
 
 
@@ -54,6 +54,7 @@ function lelei() {
     let lili = document.getElementById('main-name');
     let workName = document.getElementById('work-name');
     let desMain = document.getElementById('dest-main');
+    let imageMain = document.getElementById('img-main');
     
 
     lili.textContent = reviews[currIndex].name;
@@ -66,6 +67,7 @@ function lelei() {
 }
 
 function leleix(){
+
     currIndex = --currIndex;
          
     let lili = document.getElementById('main-name');
