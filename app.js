@@ -1,12 +1,12 @@
 const reviews = [
     { id: '01',
-      name: 'A',
-      desination: 'Webdeveloper app dev ',
-      detail: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam id blanditiis pariatur a fuga harum placeat tempora numquam at corrupti? Maiores laborum deleniti iste ipsum dolor ipsa neque id eius',
+      name: 'Elon Musk',
+      desination: 'Owner Tesla Starlink',
+      detail: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis dolorum voluptates eum. Illo odio nisi esse laudantium excepturi nesciunt dolorum numquam placeat repudiandae rem non, beatae harum sint, impedit dolor.atur',
         image: src="./images/emouncle.png"},
 
       {id: '02',
-      name: 'b',
+      name: 'JeffBezoz',
       desination: 'Webdeveloper',
       detail: 'asdsdaLorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam id blanditiis pariatur a fuga harum placeat tempora numquam at corrupti? Maiores laborum deleniti iste ipsum dolor ipsa neque id eius',
        image: src="./Images/jeffuncle.png"},
