@@ -47,9 +47,8 @@ let currIndex = 0;
     imageMain.src = reviews[currIndex].image;
 
 
-function lelei() {
-
-    currIndex = ++currIndex;     
+function updatingReview() {
+       
          
     let lili = document.getElementById('main-name');
     let workName = document.getElementById('work-name');
@@ -60,32 +59,45 @@ function lelei() {
     lili.textContent = reviews[currIndex].name;
     workName.textContent = reviews[currIndex].desination;
     desMain.textContent = reviews[currIndex].detail;   
-    imageMain.src = reviews[currIndex].image;
-    
+    imageMain.src = reviews[currIndex].image;  
    
-
 }
 
-function leleix(){
+// function updatingReview (){
 
-    currIndex = --currIndex;
+    
          
-    let lili = document.getElementById('main-name');
-    let workName = document.getElementById('work-name');
-    let desMain = document.getElementById('dest-main');
-    let imageMain = document.getElementById('img-main');
+//     let lili = document.getElementById('main-name');
+//     let workName = document.getElementById('work-name');
+//     let desMain = document.getElementById('dest-main');
+//     let imageMain = document.getElementById('img-main');
     
 
-    lili.textContent = reviews[currIndex].name;
-    workName.textContent = reviews[currIndex].desination;
-    desMain.textContent = reviews[currIndex].detail;   
-    imageMain.src = reviews[currIndex].image;
+//     lili.textContent = reviews[currIndex].name;
+//     workName.textContent = reviews[currIndex].desination;
+//     desMain.textContent = reviews[currIndex].detail;   
+//     imageMain.src = reviews[currIndex].image;
 
     
-}
+// }
 
 
  
+function leleix() {
+    if(currIndex < reviews.length - 1){
+        currIndex++;
+    } else {
+        currIndex = 0;
+    }
+    updatingReview();
+}
 
 
-
+function leleix(){
+    if(currIndex > 0){
+        currIndex--;
+    } else{
+        currIndex = reviews.length -1;
+    }
+    updatingReview();
+}
