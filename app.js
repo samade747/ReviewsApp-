@@ -7,24 +7,24 @@ const reviews = [
 
       {id: '02',
       name: 'JeffBezoz',
-      desination: 'Webdeveloper',
+      desination: 'Owner Amazon',
       detail: 'asdsdaLorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam id blanditiis pariatur a fuga harum placeat tempora numquam at corrupti? Maiores laborum deleniti iste ipsum dolor ipsa neque id eius',
        image: src="./Images/jeffuncle.png"},
 
       {id: '03',
-      name: 'c',
+      name: 'sadbsa',
       desination: 'Webdevelasddsaoper',
       detail: 'asdsa',
       image: src="./Images/emli.png"},
 
       {id: '04',
-      name: 'd',
+      name: 'dssad',
       desination: 'Webdevelasddsaoper',
       detail: 'asdsa',
       },
 
       {id: '05',
-      name: 'e',
+      name: 'eddsa',
       desination: 'Webdevelasddsaoper',
       detail: 'asdsa',
       },
