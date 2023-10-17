@@ -3,7 +3,7 @@ const reviews = [
       name: 'Elon Musk',
       desination: 'Owner Tesla Starlink',
       detail: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis dolorum voluptates eum. Illo odio nisi esse laudantium excepturi nesciunt dolorum numquam placeat repudiandae rem non, beatae harum sint, impedit dolor.atur',
-        image: src="./images/emouncle.png"},
+      image: src="./images/emouncle.png"},
 
       {id: '02',
       name: 'JeffBezoz',
@@ -12,22 +12,22 @@ const reviews = [
        image: src="./Images/jeffuncle.png"},
 
       {id: '03',
-      name: 'sadbsa',
-      desination: 'Webdevelasddsaoper',
-      detail: 'asdsa',
-      image: src="./Images/emli.png"},
+      name: 'Bill Gates',
+      desination: 'Microsoft',
+      detail: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis dolorum voluptates eum. Illo odio nisi esse laudantium excepturi nesciunt dolorum numquam placeat repudiandae rem non, beatae harum sint, impedit dolor.atur',
+      image: src="./Images/bill-gates-42396.png"},
 
       {id: '04',
-      name: 'dssad',
-      desination: 'Webdevelasddsaoper',
-      detail: 'asdsa',
-      },
+      name: 'zhang yiming ',
+      desination: 'Owner Tiktok',
+      detail: 'asddasassdasa',
+      image: src="./Images/download.png" },
 
       {id: '05',
-      name: 'eddsa',
-      desination: 'Webdevelasddsaoper',
-      detail: 'asdsa',
-      },
+      name: 'samad',
+      desination: 'Owner PSX',
+      detail: 'ssasdsvcsdgsd'
+      }
 
 
 
