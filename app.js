@@ -83,8 +83,8 @@ function updatingReview() {
 
 
  
-function leleix() {
-    if(currIndex < reviews.length - 1){
+function lelei() {
+    if(currIndex < reviews.length){
         currIndex++;
     } else {
         currIndex = 0;
@@ -94,10 +94,10 @@ function leleix() {
 
 
 function leleix(){
-    if(currIndex > 0){
-        currIndex--;
-    } else{
-        currIndex = reviews.length -1;
+    if(currIndex < reviews.length){
+        currIndex++;
+    } else {
+        currIndex = 0;
     }
     updatingReview();
 }
