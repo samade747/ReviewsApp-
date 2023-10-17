@@ -3,7 +3,7 @@ const reviews = [
       name: 'Elon Musk',
       desination: 'Owner Tesla Starlink',
       detail: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis dolorum voluptates eum. Illo odio nisi esse laudantium excepturi nesciunt dolorum numquam placeat repudiandae rem non, beatae harum sint, impedit dolor.atur',
-      image: src="./Images/emli.png"},
+      image: src="./Images/elon1.png"},
 
       {id: '02',
       name: 'JeffBezoz',
