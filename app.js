@@ -26,7 +26,8 @@ const reviews = [
       {id: '05',
       name: 'saasdadnndnmd',
       desination: 'oaskdshndn',
-      detail: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis dolorum voluptates eum. Illo odio nisi esse laudantium excepturi nesciunt dolorum numquam placeat repudiandae rem non, beatae harum sint, impedit dolor.atur'
+      detail: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis dolorum voluptates eum. Illo odio nisi esse laudantium excepturi nesciunt dolorum numquam placeat repudiandae rem non, beatae harum sint, impedit dolor.atur',
+      image: src="./Images/download.png"
       }
 
 
