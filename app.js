@@ -24,8 +24,8 @@ const reviews = [
       image: src="./Images/download.png" },
 
       {id: '05',
-      name: 'samad',
-      desination: 'Owner',
+      name: 'saasdadnndnmd',
+      desination: 'oaskdshndn',
       detail: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis dolorum voluptates eum. Illo odio nisi esse laudantium excepturi nesciunt dolorum numquam placeat repudiandae rem non, beatae harum sint, impedit dolor.atur'
       }
 
