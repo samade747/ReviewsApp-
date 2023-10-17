@@ -20,13 +20,13 @@ const reviews = [
       {id: '04',
       name: 'zhang yiming ',
       desination: 'Owner Tiktok',
-      detail: 'asddasassdasa',
+      detail: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis dolorum voluptates eum. Illo odio nisi esse laudantium excepturi nesciunt dolorum numquam placeat repudiandae rem non, beatae harum sint, impedit dolor.atur',
       image: src="./Images/download.png" },
 
       {id: '05',
       name: 'samad',
-      desination: 'Owner PSX',
-      detail: 'ssasdsvcsdgsd'
+      desination: 'Owner',
+      detail: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis dolorum voluptates eum. Illo odio nisi esse laudantium excepturi nesciunt dolorum numquam placeat repudiandae rem non, beatae harum sint, impedit dolor.atur'
       }
 
 
